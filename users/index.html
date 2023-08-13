@@ -11,8 +11,8 @@
       referrerpolicy="no-referrer"
     />
     <title>Users List</title>
-    <script src="./index.js" defer type="module"></script>
     <link rel="stylesheet" href="style.css" />
+    <script src="./index.js" defer type="module"></script>
   </head>
 
   <body>
@@ -110,8 +110,8 @@
               <th>Contact</th>
             </tr>
           </thead>
-          <tbody>
-            <tr class="active-row">
+          <tbody id="user-list">
+            <!-- <tr class="active-row">
               <td class="active">
                 <a href="#">
                   <img
@@ -203,7 +203,7 @@
               <td>Frontend</td>
               <td>Female</td>
               <td>wilmary@gmail.com</td>
-            </tr>
+            </tr> -->
           </tbody>
         </table>
         <div class="pagination">
@@ -232,9 +232,10 @@
         </div>
       </div>
     </section>
+    
     <!-- feat/victor-aside -->
-    <aside class="aside">
-      <div class="aside_container">
+    <aside class="aside" id="more-student-details">
+      <!-- <div class="aside_container">
         <div class="aside_profile">
           <p class="aside_profile_student">Student</p>
           <img
@@ -263,7 +264,7 @@
           <p class="schedule_live_class">Live class</p>
           <p class="schedule_fun_friday">Fun Friday</p>
         </div>
-      </div>
+      </div> -->
     </aside>
   </body>
 </html>
